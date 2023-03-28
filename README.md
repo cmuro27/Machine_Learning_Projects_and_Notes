@@ -9,7 +9,7 @@ exploratory data analysis, modeling, evaluation, and deployment.
 
 <div class="row">
   <div class="column" align="center">
-    <img src="https://raw.githubusercontent.com/cmuro27/Machine_Learning_Projects_and_Notes/blob/main/datasets/roc_curve_churn.png" height="160" style="width:32%">
+    <img src="https://github.com/cmuro27/Machine_Learning_Projects_and_Notes/blob/main/datasets/roc_curve_churn.png" height="160" style="width:32%">
     <img src="https://raw.githubusercontent.com/cmuro27/Machine_Learning_Projects_and_Notes/blob/main/datasets/knn_accuracy.png" height="160" style="width:32%">
     <img src="https://raw.githubusercontent.com/cmuro27/Machine_Learning_Projects_and_Notes/blob/main/datasets/loss_function_9.png" height="160" style="width:32%">
   </div>
