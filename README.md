@@ -4,8 +4,9 @@ Notes and projects using diverse machine learning libraries in Python incluiding
 The notebooks are mainly from Datacamp courses. I have completed the track of machine learning fundamentals. I also got the  
 Machine Learning Specialization of Stanford University by Andrew Ng.     
   
-The projects covers the basic steps of machine learning projects: business understanding, preprocessing and cleaning data,   
-exploratory data analysis, modeling, evaluation, and deployment.
+The projects covers the basic steps of machine learning projects: business understanding, preprocessing and cleaning data, exploratory data analysis, modeling, evaluation, and deployment.  
+  
+I also recommedn this incredible book from Alexey Grigorev:  Machine Learning Bookcamp_ Build a portfolio of real-life projects-Manning (2021)
 
 <div class="row">
   <div class="column" align="center">
