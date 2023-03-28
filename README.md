@@ -5,5 +5,5 @@ The notebooks are mainly from Datacamp courses. I have completed the track of ma
 Machine Learning Specialization of Stanford University by Andrew Ng.     
   
 The projects covers the basic steps of machine learning projects: business understanding, preprocessing and cleaning data,   
-exploratory data analysis, modeling, evaluation, and evaluation.
+exploratory data analysis, modeling, evaluation, and deployment.
 
