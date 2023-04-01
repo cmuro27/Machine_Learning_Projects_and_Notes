@@ -1,0 +1,22 @@
+--To create the virtual environment, run in your terminal:  
+pip install pipenv
+pipenv install --python=3.9 scikit-learn==1.0.2 flask xgboost==1.7.4
+pipenv install gunicorn
+-- If you failed in something, remove the virtual einvorenment with
+pipenv -rm
+--  You have to install docker. Then, the docker file. /cmuro is my directory
+FROM python:3.9-slim-buster
+ENV PYTHONUNBUFFERED=TRUE
+RUN pip --no-cache-dir install pipenv
+WORKDIR /cmuro
+COPY ["Pipfile", "Pipfile.lock", "./"]
+RUN pipenv install --deploy --system && \
+    rm -rf /root/.cache
+COPY ["*.py", "churn-model.bin", "./"]
+EXPOSE 9696
+ENTRYPOINT ["gunicorn", "--bind", "0.0.0.0:9696", "churn_serving:cmuro"]
+
+-- Then, run in your terminal
+  docker build -t churn-prediction .
+
+
